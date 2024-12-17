@@ -1,6 +1,7 @@
-import panns_inference
+from pymilvus import MilvusClientimport panns_inference
 import librosa
 import numpy as np
+
 
 # Create a Milvus client connection
 client = MilvusClient("./milvus_demo.db")
