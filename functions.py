@@ -1,3 +1,8 @@
+import panns_inference
+import librosa
+import numpy as np
+
+
 # Create the collection with the correct embedding dimension (2048)
 def create_audio_collection():
     client.create_collection(
