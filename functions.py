@@ -1,4 +1,5 @@
-from pymilvus import MilvusClientimport panns_inference
+from pymilvus import MilvusClient
+import panns_inference
 import librosa
 import numpy as np
 
